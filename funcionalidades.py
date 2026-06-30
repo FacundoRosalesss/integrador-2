@@ -19,6 +19,11 @@ def crear_alumno():
         return
     
     dni = pedir_int("Ingrese el DNI del alumno: ", 1000000, 99999999)
+    for datos in alumno.values():
+        if datos.get("dni") == dni:
+            print("Error: Ya existe un alumno registrado con ese DNI.")
+            return
+    
     nombre = pedir_string("Ingrese el nombre del alumno: ")
     apellido = pedir_string("Ingrese el apellido del alumno: ")
     edad = pedir_int("Ingrese la edad del alumno: ", 1, 120)
