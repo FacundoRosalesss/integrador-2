@@ -1,0 +1,23 @@
+{
+    "alumno1": {
+        "dni": 46210916,
+        "nombre": "Facundo",
+        "apellido": "Rosales",
+        "edad": 21,
+        "nota_final": 9
+    },
+    "alumno3": {
+        "dni": 12345678,
+        "nombre": "jose",
+        "apellido": "jose",
+        "edad": 25,
+        "nota_final": 10
+    },
+    "alumno2": {
+        "dni": 19249310,
+        "nombre": "mr",
+        "apellido": "worldwide",
+        "edad": 49,
+        "nota_final": 10
+    }
+}
